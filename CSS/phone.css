@@ -1,0 +1,103 @@
+@media only screen and (max-width: 728px) {
+    #lang{
+        display: block;
+        text-decoration: none;
+        color: #404142;
+        font-size: 12px;
+        margin-bottom: 33px;
+        margin-top: 13px;
+    }
+
+
+    #img-phone {
+        height: 60px;
+        display: block;
+    }
+
+    #meta-img{
+        height: 60px;
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+    
+
+    #left {
+        display: none;
+    }
+
+    body{
+        background: linear-gradient(to right, rgb(245, 218, 221) , #c0d6f8 )
+
+    }
+
+
+    #right {
+        /* border: 2px solid red; */
+        height: 100vh;
+    }
+
+    #right form {
+        /* border: 2px solid rgb(0, 255, 98); */
+        background-color: transparent;
+        margin: 0;
+        box-shadow: none;
+        width: 300px;
+        height: 100vh;
+    }
+
+    .input-box {
+        margin: 10px 15px 5px 15px;
+        font-size: 12px;
+        padding: 14px 16px;
+        width: 264px;
+    }
+
+    #login {
+        border-radius: 20px;
+        margin: 10px 10px 5px 10px;
+        font-size: 14px;
+        padding: 10px;
+        width: 298px;
+        background-color: rgb(25, 25, 252);
+    }
+
+    #forgotten {
+        color: #232324;
+    }
+    
+    #create-new {
+        border-radius: 20px;
+        background-color: transparent;
+        outline: 1px solid #0866ff;
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        top: 80px;
+        color: #0866ff;
+        font-weight: 80;
+    }
+
+    .hr {
+        display: none;
+    }
+
+    #spann {
+        display: none;
+    }
+
+    #last-div ul{
+        /* border: 2px solid red; */
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #last-div a{
+        display: block;
+        text-decoration: none;
+        color: #404142;
+    }
+}
